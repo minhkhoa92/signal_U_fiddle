@@ -41,7 +41,9 @@ Because I solve all my problems in concurrency with Semaphores, and all my messa
 ## Installation
 
 Some codes are not supposed to compile.
-usage: command <no>|reader <no>|reader <no>|reader <no>|reader ...
+
+server\_and\_monitor\_posix\_sem\_shm.c is supposed to be used like this:
+usage: command &lt;no&gt;|reader &lt;no&gt;|reader &lt;no&gt;|reader &lt;no&gt;|reader  [...]
 
 ## Contributors
 

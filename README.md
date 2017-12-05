@@ -43,6 +43,7 @@ Because I solve all my problems in concurrency with Semaphores, and all my messa
 Some codes are not supposed to compile.
 
 server\_and\_monitor\_posix\_sem\_shm.c is supposed to be used like this:
+
 usage: command &lt;no&gt;|reader &lt;no&gt;|reader &lt;no&gt;|reader &lt;no&gt;|reader  [...]
 
 ## Contributors

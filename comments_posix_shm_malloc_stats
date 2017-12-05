@@ -1,0 +1,2 @@
+This program 'see_memory' does not include a clearing of the space which is allocated by mmap. Munmap does not work correctly. The mapped region is deleted correctly. The used space does not shrink with munmap.
+With these results it is determined, that the unmapped region gives up its access to the shared memory space. Therefore the shared memory space can be deleted, when unlinked. The space used in the process memory is not freed for currently unknown reasons.
